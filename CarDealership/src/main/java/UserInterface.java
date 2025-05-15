@@ -1,6 +1,6 @@
 
 import java.util.InputMismatchException;
-import java.util.List;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -77,7 +77,7 @@ public class UserInterface {
         }
     }
 
-    private void displayVehicles(List<Vehicle> list) {
+    private void displayVehicles(ArrayList<Vehicle> list) {
         if (list.isEmpty()) {
             System.out.println("No matching vehicles.\n");
         } else {
